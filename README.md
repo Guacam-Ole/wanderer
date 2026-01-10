@@ -1,3 +1,5 @@
+This is the repo used by WadeZimmer.de as the official Wanderer Repo is quite slow implementing bugfixes.
+
 <div align="center">
 
   <img src="web/static/svgs/logo_text_two_line_dark.svg" height="256" width="256">

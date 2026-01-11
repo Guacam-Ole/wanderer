@@ -7,6 +7,10 @@ export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
 	test: { include: ['src/**/*.{test,spec}.{js,ts}'] },
 	ssr: { noExternal: ['three'] },
+	build: {
+		sourcemap: true,
+		minify: false
+	},
 	...(process.env.WANDERER_ENV == "dev" ? {
 		server: {
 			// https: {
